@@ -1,0 +1,29 @@
+{
+  "users": [
+    {
+      "id": 1757449222790,
+      "email": "nerirubio638@gmail.com",
+      "password": "$2b$10$23mGQzYRW1MebUjisvYEYefPtKR9Ms4wpaHHIHmX1XQcuUGHaGCOm"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 1757451719997,
+      "text": "estudiar",
+      "completed": true,
+      "userId": 1757449222790
+    },
+    {
+      "id": 1757451726208,
+      "text": "lavar ropa",
+      "completed": true,
+      "userId": 1757449222790
+    },
+    {
+      "id": 1757451733488,
+      "text": "hacer cena",
+      "completed": false,
+      "userId": 1757449222790
+    }
+  ]
+}
