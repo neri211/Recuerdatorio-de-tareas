@@ -17,7 +17,7 @@ const handleSubmit = async (e) => {
     e.preventDefault();
     setError('');
     try {
-      const response = await axios.post('https://recuerdatorio-de-tareas-backend.onrender.com', { email, password });
+      const response = await axios.post('https://recuerdatorio-de-tareas-backend.onrender.com/api/auth/login', { email, password });
       localStorage.setItem('token', response.data.token);
       setToken(response.data.token);
       // La línea navigate('/'); se ha eliminado de aquí.
