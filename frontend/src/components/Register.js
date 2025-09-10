@@ -14,7 +14,7 @@ function Register() {
     e.preventDefault();
     setError('');
     try {
-      await axios.post('https://recuerdatorio-de-tareas-backend.onrender.com', { email, password });
+   await axios.post('https://recuerdatorio-de-tareas-backend.onrender.com/api/auth/register', { email, password });
       navigate('/login');
     } catch (err) {
       // Si el servidor responde con un error (ej: email ya existe)
